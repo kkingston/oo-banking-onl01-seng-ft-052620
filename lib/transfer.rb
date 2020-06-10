@@ -18,6 +18,6 @@ class Transfer
   
   def execute_transaction(amount)
     sender.@balance -= amount 
-    receiver.@balance += amount
+    receiver.deposit
   end 
 end
