@@ -9,7 +9,7 @@ class Transfer
   end 
   
   def valid?
-    if sender.Bank_account.valid? == true && receiver.valid? == true
+    if sender.valid? == true && receiver.valid? == true
       true
     else 
       false
