@@ -25,6 +25,5 @@ class Transfer
     else
       false
     end
-    count += 1
   end 
 end
