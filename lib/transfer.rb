@@ -20,5 +20,6 @@ class Transfer
     if self.valid? == true
       sender.balance -= amount 
       receiver.deposit
+    end
   end 
 end
